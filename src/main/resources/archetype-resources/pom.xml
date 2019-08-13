@@ -1,0 +1,90 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.totvs.tjf</groupId>
+		<artifactId>tjf-boot-starter</artifactId>
+		<version>${tjf-version}</version>
+		<relativePath />
+	</parent>
+
+	<groupId>${groupId}</groupId>
+	<artifactId>${artifactId}</artifactId>
+	<version>${version}</version>
+
+	<packaging>jar</packaging>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<java.version>11</java.version>
+	</properties>
+
+	<dependencies>
+
+		<!-- Spring -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<!-- TJF -->
+		<dependency>
+			<groupId>com.totvs.tjf</groupId>
+			<artifactId>tjf-core-common</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.totvs.tjf</groupId>
+			<artifactId>tjf-core-validation</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.totvs.tjf</groupId>
+			<artifactId>tjf-api-core</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.totvs.tjf</groupId>
+			<artifactId>tjf-i18n-core</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.totvs.tjf</groupId>
+			<artifactId>tjf-api-core</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.totvs.tjf</groupId>
+			<artifactId>tjf-security-web</artifactId>
+		</dependency>
+
+		<!-- Test -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+	</dependencies>
+
+	<repositories>
+
+		<repository>
+			<id>tjf-snapshot</id>
+			<name>TOTVS Java Framework: Snapshots</name>
+			<url>http://maven.engpro.totvs.com.br/artifactory/libs-snapshot</url>
+		</repository>
+
+		<repository>
+			<id>tjf-release</id>
+			<name>TOTVS Java Framework: Releases</name>
+			<url>http://maven.engpro.totvs.com.br/artifactory/libs-release/</url>
+		</repository>
+
+	</repositories>
+
+</project>
