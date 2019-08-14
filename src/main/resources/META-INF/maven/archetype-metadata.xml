@@ -10,6 +10,10 @@
 		<fileSet filtered="true" packaged="true">
 			<directory>src/main/java</directory>
 		</fileSet>
+		
+		<fileSet>
+			<directory>src/main/resources</directory>
+		</fileSet>
 
 		<fileSet filtered="true" packaged="true">
 			<directory>src/test/java</directory>
@@ -20,7 +24,7 @@
 	<requiredProperties>
 
 		<requiredProperty key="tjf-version">
-			<defaultValue>1.2.0-RELEASE</defaultValue>
+			<defaultValue>1.3.0-RELEASE</defaultValue>
 		</requiredProperty>
 
 	</requiredProperties>

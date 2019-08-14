@@ -34,22 +34,7 @@
 		<!-- TJF -->
 		<dependency>
 			<groupId>com.totvs.tjf</groupId>
-			<artifactId>tjf-core-common</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>com.totvs.tjf</groupId>
 			<artifactId>tjf-core-validation</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>com.totvs.tjf</groupId>
-			<artifactId>tjf-api-core</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>com.totvs.tjf</groupId>
-			<artifactId>tjf-i18n-core</artifactId>
 		</dependency>
 
 		<dependency>
@@ -72,12 +57,6 @@
 	</dependencies>
 
 	<repositories>
-
-		<repository>
-			<id>tjf-snapshot</id>
-			<name>TOTVS Java Framework: Snapshots</name>
-			<url>http://maven.engpro.totvs.com.br/artifactory/libs-snapshot</url>
-		</repository>
 
 		<repository>
 			<id>tjf-release</id>
