@@ -1,0 +1,17 @@
+tjf:
+  api:
+    filter:
+      fields:
+        enabled: true
+
+security:
+  
+  access:
+    api:
+      permissions-uri: http://{hostname}/totvs.rac/api/permissions
+  
+  oauth2:
+    resource:
+      id: authorization_api
+      jwk:
+        key-set-uri: http://{hostname}/totvs.rac/.well-known/openid-configuration/jwks
