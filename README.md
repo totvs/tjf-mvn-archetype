@@ -4,6 +4,12 @@ Maven archetype to generate **TOTVS Java Framework** based projects.
 
 ## How to use
 
+First step is to install this project:
+```bash
+mvn clean install
+```
+
+Into folder of your project:
 **Linux**
 
 ```bash
